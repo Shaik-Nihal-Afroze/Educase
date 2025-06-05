@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+.card {
+  background: #fff;
+  width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.btn.primary {
+  background-color: #6c3cf5;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.account-card {
+  background: #fff;
+  width: 400px;
+  margin: 40px auto;
+  border: 1px solid #ddd;
+}
+
+.account-card h3 {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+  margin: 0;
+}
+
+.account-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+}
+
+.account-header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.account-name {
+  font-weight: 600;
+  text-align: left;
+   
+}
+
+.account-email {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.account-bio {
+  padding: 0 16px 16px 16px;
+  font-size: 0.9em;
+  color: #444;
+  text-align: left;
+}
+
+.account-setting{
+  text-align: left;
+}
